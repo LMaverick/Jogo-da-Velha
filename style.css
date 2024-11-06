@@ -1,0 +1,47 @@
+.casa{
+    width: 190px;
+    height: 190px;
+
+    margin:0 auto;
+    background: rgba(128, 128, 128, 0.61);
+
+}
+
+.casa:hover{
+    background: rgba(211, 211, 211, 0.692); 
+}
+
+
+#tabuleiro{
+    width: 610px;
+    height: 610px;
+    border: solid rgba(0, 0, 0, 0.774);
+    margin:0 auto;
+    background: linear-gradient(45deg, rgb(0, 183, 255), rgb(204, 28, 204));
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    align-items: center;
+
+    
+
+}
+
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+
+    }
+
+    50%{
+        background-position: 100% 50%;
+
+    }
+
+    100%{
+        background-position: 0% 50%;
+
+    }

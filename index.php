@@ -12,24 +12,24 @@
 <div class="container">
     <h1>Jogo da Velha</h1>
     <div id="tabuleiro">
-      <div class="linha">0
+
         <button class="casa" data-pos="0"></button>
         <button class="casa" data-pos="1"></button>
         <button class="casa" data-pos="2"></button>
-      </div>
-      <div class="linha">
+
         <button class="casa" data-pos="3"></button>
         <button class="casa" data-pos="4"></button>
         <button class="casa" data-pos="5"></button>
-      </div>
-      <div class="linha">
+
         <button class="casa" data-pos="6"></button>
         <button class="casa" data-pos="7"></button>
         <button class="casa" data-pos="8" ></button>
-      </div>
-    </div>
-    <button id="reiniciar">Reiniciar Jogo</button>
+
+
+ 
   </div>
+
+  <button id="reiniciar">Reiniciar Jogo</button>
 
   <script src="script.js"></script>
 </body>
