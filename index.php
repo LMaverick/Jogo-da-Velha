@@ -13,17 +13,17 @@
     <h1>Jogo da Velha</h1>
     <div id="tabuleiro">
 
-        <button class="casa" data-pos="0"></button>
-        <button class="casa" data-pos="1"></button>
-        <button class="casa" data-pos="2"></button>
+        <button class="casa" onclick="casa(0)"></button>
+        <button class="casa" onclick="casa(1)"></button>
+        <button class="casa" onclick="casa(2)"></button>
 
-        <button class="casa" data-pos="3"></button>
-        <button class="casa" data-pos="4"></button>
-        <button class="casa" data-pos="5"></button>
+        <button class="casa" onclick="casa(3)"></button>
+        <button class="casa" onclick="casa(4)"></button>
+        <button class="casa" onclick="casa(5)"></button>
 
-        <button class="casa" data-pos="6"></button>
-        <button class="casa" data-pos="7"></button>
-        <button class="casa" data-pos="8" ></button>
+        <button class="casa" onclick="casa(6)"></button>
+        <button class="casa" onclick="casa(7)"></button>
+        <button class="casa" onclick="casa(8)" ></button>
 
 
  
